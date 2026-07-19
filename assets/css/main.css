@@ -21848,6 +21848,17 @@ input[type=radio] {
   border-color: rgba(11, 58, 91, 0.15);
   box-shadow: 0 30px 60px rgba(11, 58, 91, 0.08);
 }
+.it-feature-area .it-feature-item {
+  height: 100%;
+}
+.it-feature-area .it-feature-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.it-feature-area .it-feature-content a {
+  display: none;
+}
 .it-feature-area .it-feature-icon span {
   background: rgba(0, 168, 168, 0.12);
   color: var(--it-theme-3);
