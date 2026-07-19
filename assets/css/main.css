@@ -10813,7 +10813,17 @@ input[type=radio] {
 @media only screen and (max-width: 767px) {
   .it-header-logo img,
   .it-offcanvas-area .itoffcanvas__logo img {
-    max-height: 80px;
+    max-height: 110px;
+  }
+
+  .it-header-area .row.align-items-center > .col-6:first-child {
+    flex: 0 0 70%;
+    max-width: 70%;
+  }
+
+  .it-header-area .row.align-items-center > .col-6:last-child {
+    flex: 0 0 30%;
+    max-width: 30%;
   }
 }
 
